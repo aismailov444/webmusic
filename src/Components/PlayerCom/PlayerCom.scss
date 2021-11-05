@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  input{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 480px;
+  }
+  .player-icons {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 20px auto;
+
+    .icons {
+      font-size: 40px;
+    }
+  }
+  #startTime{
+    position: absolute;
+    top: 600px;
+    left: 480px;
+  }
+
+  #endTime{
+    position: absolute;
+    top: 600px;
+    right: 480px;
+  }
+}
